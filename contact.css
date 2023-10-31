@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+}
+:root{
+    --burntred: #E94D40;
+    --navyblue: #0C243C;
+    line-height: 20px;
+    padding-top: 20px;
+        
+}
+
+#wrapper{
+    width: 1200px;
+    height: 1450px;
+    background-color: white;
+    margin: auto;
+    
+}
+header{
+    margin-bottom: 25px;
+}
+
+nav{
+    width: 1200px;
+    height: 50px; /* cake*/
+    background-color: white;
+    line-height: 10px;/*home sale*/
+    padding: 25px;
+    text-align: right;
+}
+nav>a{
+    margin-left: 20px;/*logo*/
+    text-decoration: none;
+    color: var(--navyblue);
+}
+
+h2,h3{
+    color: var(--burntred);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+h5{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+fieldset{
+    background-color: khaki;
+    padding: 20px 0 0 20px;
+    width: 800px;
+    height: 350px;
+    border: 3px solid khaki;
+    margin: 10px 0 25px 180px;/*yellow box*/
+}
+label{
+    display: inline-block;
+    width: 185px; /*white box*/
+    height: 40px;
+    text-align: left;
+    margin-right: auto;
+}
+input{
+    height: 40px;
+}
+input[type="submit"]{
+    width: 280px;/*send box*/
+    height: 30px;
+}
+
+footer{
+    width: 1200px;
+    height: 40px;
+    text-align: center;
+    background-color: var(--navyblue); 
+    color: #fff;
+    line-height: 40px;
+}
+
